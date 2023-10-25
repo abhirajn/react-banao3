@@ -180,7 +180,7 @@ svg path {
 .ftext{
     height: 50%;
     width: 100%;
-    margin-top: 20%;
+    margin-top: 23%;
     color: white;
     font-size:50px;
     text-align: end;
@@ -209,6 +209,7 @@ svg path {
    position: absolute;
    bottom: 0;
    left: 0;
+   margin-left: 10%;
 
 }
 
