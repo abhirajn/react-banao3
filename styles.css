@@ -1,0 +1,360 @@
+body {
+    /* background-color: aqua; */
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+svg {
+    width: 20%;
+    height: 40%;
+    position: fixed;
+    top: 10%;
+    left: 30%;
+    border-radius: 50%;
+    z-index: 0;
+    /* padding: 3%; */
+}
+.middlesvg{
+    fill: #01b76a;
+}
+
+section {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family: 'Bebas Neue';
+    font-size: 5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+svg path {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+}
+
+
+.sec1div1{
+    width: 40%;
+    height: 100vh;
+    background-color: #6016b1;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.one{
+    background-color: #6016b1;
+    z-index: -1;
+}
+.two{
+    background-color:#4e27ce; 
+}
+
+.three{
+    background-color: #11113b; 
+}
+.four{
+    background-color: #17263c;
+}
+.five{
+    background-color: #134ca2; 
+}
+.six{
+    background-color: #022b92;
+}
+.seven{
+    background-color:#01824d;
+}
+
+
+
+
+.sec1div2{
+    width: 60%;
+    height: 100vh;
+    background-color: #cdcbcf;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+.sec2div1{
+    width: 40%;
+    height: 100vh;
+    background-color:#4e27ce;  
+}
+
+.sec2div2{
+    width: 60%;
+    height: 100vh;
+    background-color:#1d0363;
+   position: relative;
+}
+
+.sec3div1{
+    width: 40%;
+    height: 100vh;
+    background-color: #11113b; 
+    position: relative; 
+}
+.sec3div2{
+    width: 60%;
+    height: 100vh;
+    background-color: #151649;
+    position: relative;
+}
+
+.sec4div1{
+    width: 40%;
+    height: 100vh;
+    background-color: #17263c; 
+}
+.sec4div2{
+    width: 60%;
+    height: 100vh;
+    background-color:#0e131c;
+    position: relative;
+}
+
+.sec5div1{
+    width: 40%;
+    height: 100vh;
+    background-color: #134ca2;  
+}
+.sec5div2{
+    width: 60%;
+    height: 100vh;
+    background-color:#2dcada;
+    position: relative;
+}
+
+.sec6div1{
+    width: 40%;
+    height: 100vh;
+    background-color: #022b92; 
+}
+.sec6div2{
+    width: 60%;
+    height: 100vh;
+    background-color:#1d0363;
+}
+
+.sec7div1{
+    width: 40%;
+    height: 100vh;
+    background-color:#01824d;  
+}
+.sec7div2{
+    width: 60%;
+    height: 100vh;
+    background-color: #01b76a;
+    position: relative;
+}
+
+.onefimg{
+  
+   bottom: 0;
+   margin-top: 8%;
+   margin-left: 17%;
+  margin-right: 5%;
+
+
+}
+.onetimg{
+
+    margin-top: 8%;  
+}
+
+.firstleft{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100vh;
+    position: absolute;
+    z-index: 100;
+}
+
+.ftext{
+    height: 50%;
+    width: 100%;
+    margin-top: 20%;
+    color: white;
+    font-size:50px;
+    text-align: end;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.stext{
+    height: 50%;
+    width: 100%;
+}
+
+.sumne{
+    font-size: 25px;
+    margin-top: 0;
+    
+}
+.stextdiv{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: large;
+    color :white;
+}
+
+.twofimg{
+
+   position: absolute;
+   bottom: 0;
+   left: 0;
+
+}
+
+.twosimg{
+    position: absolute;
+    top: 0;
+    right: 0;
+ }
+
+
+
+.pizza_box{
+    position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.dominos-bread1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.dominos-bread{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.dominos-screen1{
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    /* bottom: 30%; */
+}
+.dominos-screen2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+
+.karavan1{
+    position: absolute;
+   margin-left: 20%;
+    bottom: 0;
+}
+
+.karavan2{
+    position: absolute;
+   margin-left: 47%;
+    bottom: 0;
+}
+
+.karavan3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 20%;
+}
+
+.karavan4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 47%;
+     
+}
+
+.karavan5{
+    position: absolute;
+    right: 0;
+    margin-top: 20%;
+    margin-right: 1%;
+}
+
+.interior1{
+    position: absolute;
+    width: 60%;
+    z-index: 0;
+}
+
+.interior2{
+    position: relative;
+     margin-left: 60px;
+    z-index: 100;
+}
+
+.last1{
+    position: absolute;
+  bottom: 0;
+  right: 15%;
+}
+
+.last2{
+    position: absolute;
+  bottom: 0;
+  right: 40%;
+}
+.nasalogo{
+    position: absolute;
+    right: 0;
+    margin-top: 28%;
+    z-index: 100;
+}
+
+.nasa1{
+    position: absolute;
+    top: 0;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.nasa2{
+    position: absolute;
+    top: 0;
+    margin-left: 70%;
+}
+
+.newbody{
+    background-color: #01b76a;
+}
+
+.mobileview{
+   width: 100%;
+   height: 100vh;
+}
+
+
+@media only screen and (min-width: 750px) {
+    .mobileview{
+        display: none;
+    }
+    .desktopview{
+        display: block;
+    }
+}
+@media only screen and ( 0px <= width < 750px) {
+    .desktopview{
+        display: none;
+    }
+    .sec{
+        display: none;
+    }
+    .mobileview{
+        display: block;
+    }
+}
+
+
